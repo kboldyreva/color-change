@@ -1,0 +1,21 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorButton {
+    padding: 0.5rem 1rem;
+    border: 5px solid white;
+    border-radius: 10px;
+    color:white;
+    background: gray;
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none;
+}
+
+colorButton:hover {
+    background: black;
+}
